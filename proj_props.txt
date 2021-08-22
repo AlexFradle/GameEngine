@@ -1,0 +1,14 @@
+Include dirs:
+$(SolutionDir)deps/include/
+$(SolutionDir)
+
+Library dirs:
+$(SolutionDir)deps/lib/
+$(SolutionDir)/Debug/
+
+Additional deps:
+SDL2.lib
+SDL2main.lib
+opengl32.lib
+glew32.lib
+AGEngine.lib
